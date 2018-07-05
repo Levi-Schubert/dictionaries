@@ -11,7 +11,6 @@ def report(list=purchases, stocks=stock_dict):
 
 def report_by_ticker(list=purchases, stocks=stock_dict):
 	tickers = {}
-	value_report = []
 	for stock in list:
 		name = stocks[stock[0]]
 		value = stock[1]
